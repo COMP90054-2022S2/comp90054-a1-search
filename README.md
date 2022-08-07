@@ -45,7 +45,7 @@ You should code your implementations *only* at the locations in the template cod
 
 ### Part 1 (3 marks)
 
-Implement the **Enforced Hill Climbing algorithm** discussed in lectures, using Manhattan Distance as the heuristic, by inserting your code into the template indicated by comment ```***YOUR CODE HERE FOR TASK 1***```, you can view the location at this link: [search.py#L166](search.py#L166).
+Implement the **Enforced Hill Climbing algorithm** discussed in lectures, using Manhattan Distance as the heuristic, by inserting your code into the template indicated by comment ```***YOUR CODE HERE FOR TASK 1***```, you can view the location at this link: [search.py#L151](search.py#L151).
 
 Note that you don't have to implement Manhattan Distance, as this has already been implemented for you in the template code, although you will need to call the heuristic from inside your search. You should be able to test the algorithm using the following command:
 
@@ -81,7 +81,7 @@ Tips for your implementation:
 - The function `getBackwardsSuccessors` has already reverses the action name for backwards search.
 - The function `getGoalStates` returns a list of all possible goal states.
 
-Implement the **BAE\* algorithm** discussed above by inserting your code into the template indicated by comment ```***YOUR CODE HERE FOR TASK 2***```, you can view the location at this link: [search.py#L179](search.py#L179). You should be able to test the algorithm using the following command:
+Implement the **BAE\* algorithm** discussed above by inserting your code into the template indicated by comment ```***YOUR CODE HERE FOR TASK 2***```, you can view the location at this link: [search.py#L169](search.py#L169). You should be able to test the algorithm using the following command:
 ```
 python pacman.py -l mediumMaze -p BidirectionalSearchAgent -a fn=bae,heuristic=manhattanHeuristic,backwardsHeuristic=backwardsManhattanHeuristic
 ```
@@ -110,7 +110,7 @@ Make sure your heuristic is admissible and consistent, as we don't check for reo
 
 You may choose to implement other helper classes/functions. 
 
-You should insert your code into the template indicated by the comments ```***YOUR CODE HERE FOR TASK 3***```, you can view the locations at these links: [search.py#L117](search.py#L117) and 5 positions in [searchAgents.py](searchAgents.py).
+You should insert your code into the template indicated by the comments ```***YOUR CODE HERE FOR TASK 3***```, you can view the locations after Line [searchAgents.py#L781](searchAgents.py#L781).
 
 Tips for your implementation:
 - It is important to make sure the transition from `getBackwardsSuccessors` is the exact reverse of `getSuccessors`. 

@@ -797,27 +797,27 @@ class BidirectionalFoodSearchProblem:
         self.walls = startingGameState.getWalls()
         # self.emptyFoodGrid = Grid(self.foodGrid.width,self.foodGrid.height)
 
-        """You code here for Task 3:"""
+        """YOUR CODE HERE FOR TASK 3:"""
         # Define your initial state
         self.start = ()
         # And if you have anything else want to initialize:
         
         
     def getStartState(self):
-        """You code here for Task 3:"""
+        """YOUR CODE HERE FOR TASK 3:"""
         # You MUST implement this function to return the initial state
         return self.start
     
     def getGoalStates(self):
         goal_states = []
-        """You code here for Task 3:"""
+        """YOUR CODE HERE FOR TASK 3:"""
         # You must generate all goal states
         
         return goal_states
 
     def isGoalState(self, state):
         goal_achieved = False
-        """You code here for Task 3:"""
+        """YOUR CODE HERE FOR TASK 3:"""
         # You MUST implement this function to return True or False
         # to indicate whether the give state is one of the goal state or not        
         
@@ -829,7 +829,7 @@ class BidirectionalFoodSearchProblem:
         successors = []
         self._expanded += 1 # DO NOT CHANGE
         
-        """You code here for Task 3:"""
+        """YOUR CODE HERE FOR TASK 3:"""
 
         # There are four actions might be available:
         # for direction in [Directions.NORTH, Directions.SOUTH, Directions.EAST, Directions.WEST]:
@@ -846,7 +846,7 @@ class BidirectionalFoodSearchProblem:
         successors = []
         self._expanded += 1 # DO NOT CHANGE
         
-        """You code here for Task 3:"""
+        """YOUR CODE HERE FOR TASK 3:"""
 
         # There are four actions might be available:
         # for direction in [Directions.NORTH, Directions.SOUTH, Directions.EAST, Directions.WEST]:
@@ -863,7 +863,7 @@ class BidirectionalFoodSearchProblem:
         include an illegal move, return 999999"""
 
         # this function will return the cost only for display purpose when you run your own test.
-        "*** YOUR CODE HERE for Task 3 (optional) ***"
+        "*** YOUR CODE HERE FOR TASK 3 (optional) ***"
         cost = 0
 
         # for action in actions:
@@ -873,9 +873,9 @@ class BidirectionalFoodSearchProblem:
 
 
 def bidirectionalFoodProblemHeuristic(state, problem):
-    "*** YOUR CODE HERE for Task 3 ***"
+    "*** YOUR CODE HERE FOR TASK 3 ***"
     return 0
 
 def bidirectionalFoodProblemBackwardsHeuristic(state, problem):
-    "*** YOUR CODE HERE for Task 3 ***"
+    "*** YOUR CODE HERE FOR TASK 3 ***"
     return 0

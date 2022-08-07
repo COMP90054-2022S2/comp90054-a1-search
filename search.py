@@ -154,12 +154,6 @@ def enforcedHillClimbing(problem, heuristic=nullHeuristic):
     util.raiseNotDefined()
 
 
-    
-        
-        
-        
-        
-
 from math import inf as INF   
 def bidirectionalAStarEnhanced(problem, heuristic=nullHeuristic, backwardsHeuristic=nullHeuristic):
     
