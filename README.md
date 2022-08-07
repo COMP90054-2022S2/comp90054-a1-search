@@ -99,12 +99,12 @@ Just like in Q7 of the Berkerley Pacman framework, you will be required to creat
 
 In order to implement this, you should create a new problem called `BidirectionalFoodSearchProblem`. Some of the variables are listed in the comments and the initialization. You will need to:
 
-1- Design a way to represent the states of the problem. 
-2- Return the initial state through `getStartState` function. 
-3- Have `getGoalStates` to return a list of all possible goal states. 
-4- Implement your transition function in `getSuccessors`, which should return a list of tuples that contains (`next state`, `action`, `cost`). 
-5- Implement `getBackwardsSuccessors` function to search in backwards.
-6- Implement two suitable heuristics, `bidirectionalCapsuleProblemHeuristic` and `bidirectionalCapsuleProblemBackwardsHeuristic`. 
+1. Design a way to represent the states of the problem. 
+2. Return the initial state through `getStartState` function. 
+3. Have `getGoalStates` to return a list of all possible goal states. 
+4. Implement your transition function in `getSuccessors`, which should return a list of tuples that contains (`next state`, `action`, `cost`). 
+5. Implement `getBackwardsSuccessors` function to search in backwards.
+6. Implement two suitable heuristics, `bidirectionalCapsuleProblemHeuristic` and `bidirectionalCapsuleProblemBackwardsHeuristic`. 
 
 Make sure your heuristic is admissible and consistent, as we don't check for reopening, and the optimality guarantees would be lost  because the assumption on the optimality of <img src="https://latex.codecogs.com/svg.image?g_x(n)" /> would be wrong when errors <img src="https://latex.codecogs.com/svg.image?d(n)" /> are computed. 
 
